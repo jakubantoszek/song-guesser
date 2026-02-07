@@ -3,14 +3,14 @@ from enum import Enum
 
 from config import SONGS_DIR_PATH
 
-class Categories(Enum):
+class Category(Enum):
     ROCK = 0,
     POP = 1,
-    POP-ROCK = 2,
+    POP_ROCK = 2,
     METAL = 3,
     RAP = 4,
     POLISH = 10,
-    NON-POLISH = 11
+    NON_POLISH = 11
 
 
 class Song:
