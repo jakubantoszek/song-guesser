@@ -74,6 +74,3 @@ def filter_songs(songs, categories, year_start, year_end):
             results.append(song)
 
     return results
-
-songs_list = get_songs()
-filter_songs(songs_list, [Category.POP_ROCK, Category.POLISH], 1970, 1979)
